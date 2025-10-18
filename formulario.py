@@ -35,5 +35,5 @@ entry_correo.grid(row=2, column=1, padx=5, pady=5)
 
 # Botón Guardar
 tk.Button(app1, text="Guardar", command=guardar_datos).grid(row=3, column=0, columnspan=2, pady=10)
-
+app1.mainloop()
 # app1.mainloop() # Descomentar para ejecutar solo este ejercicio

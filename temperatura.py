@@ -41,3 +41,4 @@ tk.Button(app2, text="Convertir", command=convertir_temperatura).pack(pady=10)
 etiqueta_resultado = tk.Label(app2, text="Resultado: ")
 etiqueta_resultado.pack(pady=10)
 
+app2.mainloop()

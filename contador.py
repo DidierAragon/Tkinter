@@ -19,3 +19,4 @@ etiqueta_contador = tk.Label(app4, text="Clics: 0", font=("Arial", 16))
 etiqueta_contador.pack(pady=15)
 
 tk.Button(app4, text="¡Clic Aquí!", command=incrementar_contador).pack()
+app4.mainloop()

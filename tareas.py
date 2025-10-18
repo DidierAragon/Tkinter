@@ -35,4 +35,4 @@ tk.Button(frame_botones, text="Eliminar", command=eliminar_tarea).pack(side=tk.L
 
 listbox_tareas = tk.Listbox(app3, width=50, height=10)
 listbox_tareas.pack(pady=10, padx=10)
-
+app3.mainloop()
