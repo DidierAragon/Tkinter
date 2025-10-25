@@ -10,8 +10,7 @@ productos = [{"nombre":"arroz","precio":"2500","stock":"100"},
 def mostrar_productos():
     boton_mostrar.pack_forget()
     for producto in productos:
-        texto = f"Nombre:{producto["nombre"]},precio:{producto["precio"]},stock:{producto["stock"]}"
-        etiqueta = tk.Label(ventana, text=texto, font=("Arial",12))
+        etiqueta = tk.Label(ventana, text=producto, font=("Arial",12))
         etiqueta.pack(pady=3)
 boton_mostrar = tk.Button(ventana, text="mostrar productos", font=("Arial",14),command=mostrar_productos)
 boton_mostrar.pack(expand=True)
